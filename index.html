@@ -11,49 +11,56 @@
   <body>
     
     <main class="container">
-      <div>
+      
+      <div class="house-wrapper house-active">
         <p class="number">1 / 6</p>
         <img src="img/house1.jpg" />
-        <p class="caption">Caption - House 1</p>
-      </div>
-      <div>
-        <p class="number">2 / 6</p>
-        <img src="img/house2.jpg" />
-        <p class="caption">Caption - House 2</p>
-      </div>
-      <div>
-        <p class="number">3 / 6</p>
-        <img src="img/house3.jpg" />
-        <p class="caption">Caption - House 3</p>
-      </div>
-      <div>
-        <p class="number">4 / 6</p>
-        <img src="img/house4.jpg" />
-        <p class="caption">Caption - House 4</p>
-      </div>
-      <div>
-        <p class="number">5 / 6</p>
-        <img src="img/house5.jpg" />
-        <p class="caption">Caption - House 5</p>
-      </div>
-      <div>
-        <p class="number">6 / 6</p>
-        <img src="img/house6.jpg" />
-        <p class="caption">Caption - House 6</p>
+        <p class="caption">House 1</p>
       </div>
       
-      <a href="#">&#60;</a>
-      <a href="#">&#62;</a>
+      <div class="house-wrapper">
+        <p class="number">2 / 6</p>
+        <img src="img/house2.jpg" />
+        <p class="caption">House 2</p>
+      </div>
+      
+      <div class="house-wrapper">
+        <p class="number">3 / 6</p>
+        <img src="img/house3.jpg" />
+        <p class="caption">House 3</p>
+      </div>
+      
+      <div class="house-wrapper">
+        <p class="number">4 / 6</p>
+        <img src="img/house4.jpg" />
+        <p class="caption">House 4</p>
+      </div>
+      
+      <div class="house-wrapper">
+        <p class="number">5 / 6</p>
+        <img src="img/house5.jpg" />
+        <p class="caption">House 5</p>
+      </div>
+      
+      <div class="house-wrapper">
+        <p class="number">6 / 6</p>
+        <img src="img/house6.jpg" />
+        <p class="caption">House 6</p>
+      </div>
+      
+      <a class="prev" href="#">&#60;</a>
+      <a class="next" href="#">&#62;</a>
     
     </main>
     
-    <div class="dot">1</div>
-    <div class="dot">2</div>
-    <div class="dot">3</div>
-    <div class="dot">4</div>
-    <div class="dot">5</div>
-    <div class="dot">6</div>
-    
+    <section class="dot-wrapper">
+      <div class="dot" onclick="dotClick(1);"></div>
+      <div class="dot" onclick="dotClick(2);"></div>
+      <div class="dot" onclick="dotClick(3);"></div>
+      <div class="dot" onclick="dotClick(4);"></div>
+      <div class="dot" onclick="dotClick(5);"></div>
+      <div class="dot" onclick="dotClick(6);"></div>
+    </section>
 
   <script src="js/main.js"></script>
   </body>
